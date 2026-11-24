@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadarTube - تحميل</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0B0B0F;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+        .card {
+            background: #16161D;
+            border-radius: 20px;
+            padding: 40px 32px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: #FF3B5C;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 36px;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #A0A0B0;
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            background: #FF3B5C;
+            color: #fff;
+            text-decoration: none;
+            padding: 16px;
+            border-radius: 14px;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            transition: 0.2s;
+        }
+        .btn:hover { background: #D32F4B; transform: translateY(-2px); }
+        .btn.secondary {
+            background: #1E1E28;
+            border: 1px solid #2A2A35;
+        }
+        .btn.secondary:hover { background: #252530; }
+        .features {
+            margin-top: 28px;
+            text-align: right;
+            color: #A0A0B0;
+            font-size: 13px;
+            line-height: 1.8;
+        }
+        .features span { color: #00C853; }
+        .footer {
+            margin-top: 40px;
+            color: #5A5A6A;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="logo">▶</div>
+        <h1>MadarTube</h1>
+        <p class="subtitle">مفتوح المصدر • بدون إعلانات</p>
+
+        <!-- غيّر الرابط هنا بعد ما ترفع الـ APK -->
+        <a href="MadarTube.apk" class="btn" download>
+            تحميل التطبيق (APK)
+        </a>
+
+        <a href="MadarTube_Project.zip" class="btn secondary" download>
+            تحميل المشروع (Source)
+        </a>
+
+        <div class="features">
+            <div><span>✓</span> YouTube • TikTok • Instagram</div>
+            <div><span>✓</span> اختيار الجودة</div>
+            <div><span>✓</span> تحميل خلفية + إشعار</div>
+            <div><span>✓</span> قائمة تحميلات + حذف</div>
+        </div>
+    </div>
+
+    <p class="footer">MadarTube • Open Source</p>
+</body>
+</html>
